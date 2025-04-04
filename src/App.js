@@ -11,22 +11,19 @@ import Setting from "./Pages/Setting";
 
 
 function App() {
- 
-  
-  return (
+ return (
     <>
-      
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="../" element={<Home />} />
-          <Route path="../About" element={<About />}>
-          <Route path="setting" element={<Setting/>}/>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/About" element={<About />}>
+          <Route path="Setting" element={<Setting/>}/>
           </Route>
-          <Route path="../Contact" element={<Contact />} />
-          <Route path="../Services" element={<Services />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Services" element={<Services />} />
           <Route path="*" element={<NotFound/>}/>
-          <Route path="../protected" element={<ProtectedPage />} />
+          <Route path="/protected" element={<ProtectedPage />} />
         </Routes>
       </BrowserRouter>
     </>
