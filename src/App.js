@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -13,7 +13,7 @@ import Setting from "./Pages/Setting";
 function App() {
  return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
           <Route path="*" element={<NotFound/>}/>
           <Route path="/protected" element={<ProtectedPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
