@@ -37,7 +37,7 @@ entire app. </li>
   <h3>Task 10:Nested Route</h3><br/>
   <h3>Task 11:Navigate Programmatically</h3>
   <p>Button click</p><br/>
-  <button onClick={()=>navigate("/about")}>Navigate</button><br/><br/>
+  <button onClick={()=>navigate("./about")}>Navigate</button><br/><br/>
   <h3>Task 12:Navigate Bar Components</h3><br/>
   <h3>Task 13:Protected Page Example (Static Check):</h3>
   </div>

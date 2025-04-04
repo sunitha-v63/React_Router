@@ -8,20 +8,20 @@ function Navbar() {
         <h1>Profile</h1>
         <div className="navbar">
           <NavLink
-            to="/" activeClassName="active" >
+            to="./" activeClassName="active" >
             Home
           </NavLink>
-          <NavLink to="/about" activeClassName="active">
+          <NavLink to="./about" activeClassName="active">
             About
           </NavLink>
-          <NavLink to="/contact" activeClassName="active">
+          <NavLink to="./contact" activeClassName="active">
             Contact
           </NavLink>
-          <NavLink to="/services" activeClassName="active">
+          <NavLink to="./services" activeClassName="active">
             Services
           </NavLink>
-          <NavLink to="/notfound" activeClassName="active">NotFound</NavLink>
-          <NavLink to="/protected" activeClassName="active">ProtectedPage</NavLink>
+          <NavLink to="./notfound" activeClassName="active">NotFound</NavLink>
+          <NavLink to="./protected" activeClassName="active">ProtectedPage</NavLink>
         </div>
       </nav>
     </>

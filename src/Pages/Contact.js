@@ -3,7 +3,8 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <h1>About pages</h1>
+    <h1>Contact pages</h1>
+   
     </>
   )
 }
