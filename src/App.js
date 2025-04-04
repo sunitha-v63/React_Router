@@ -19,14 +19,14 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/About" element={<About />}>
+          <Route exact path="../" element={<Home />} />
+          <Route path="../About" element={<About />}>
           <Route path="setting" element={<Setting/>}/>
           </Route>
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="../Contact" element={<Contact />} />
+          <Route path="../Services" element={<Services />} />
           <Route path="*" element={<NotFound/>}/>
-          <Route path="/protected" element={<ProtectedPage />} />
+          <Route path="../protected" element={<ProtectedPage />} />
         </Routes>
       </BrowserRouter>
     </>
