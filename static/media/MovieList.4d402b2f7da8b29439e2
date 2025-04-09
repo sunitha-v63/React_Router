@@ -1,0 +1,24 @@
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+// import Movies from '../Data/Movies';
+
+// function MovieList() {
+//   return (
+//     <div>
+//       <h2>All Movies</h2>
+//       <ul>
+//         {Movies.map((movie) => (
+//           <li key={movie.id}>
+//             <Link to={`/${movie.id}`}>
+//               {movie.title} ({movie.year})
+//             </Link>
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default MovieList;
+
+
