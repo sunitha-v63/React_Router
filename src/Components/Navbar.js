@@ -20,6 +20,12 @@ function Navbar() {
           <NavLink to="/services" activeClassName="active">
             Services
           </NavLink>
+          <NavLink to="/Product" activeClassName="active">
+          Product
+          </NavLink>
+          <NavLink to="/Movie" activeClassName="active">
+          Movie
+          </NavLink>
           <NavLink to="/notfound" activeClassName="active">NotFound</NavLink>
           <NavLink to="/protected" activeClassName="active">ProtectedPage</NavLink>
         </div>

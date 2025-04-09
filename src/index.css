@@ -51,3 +51,8 @@ text-align: center;
 margin-top: 50px;
 font-size: 20px;
 }
+.sub
+{
+  display: flex;
+  gap:40px;
+}
